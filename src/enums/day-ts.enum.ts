@@ -11,8 +11,8 @@ export enum DayTSEnum {
 }
 
 export interface DayTSInterface {
-    label: string;
-    isWeekend: boolean;
+    readonly label: string;
+    readonly isWeekend: boolean;
 }
 
 const dayTSRecord: Record<DayTSEnum, DayTSInterface> = {
